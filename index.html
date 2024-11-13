@@ -737,10 +737,10 @@
                                 }
                                 
                                 .slider .slide-track {    
-                                    -webkit-animation: scroll 40s linear infinite;
-                                    animation: scroll 40s linear infinite;
+                                    -webkit-animation: scroll 30s linear infinite;
+                                    animation: scroll 30s linear infinite;
                                     display: flex;
-                                    width: calc(250px * 12);
+                                    height: calc(250px * 12);
                                 }
 
                                 .slider::before, .slider::after {
@@ -890,19 +890,19 @@
                                 
                                 @-webkit-keyframes scroll {
                                      0% {
-                                     transform: translateX(0);
+                                     transform: translateY(0);
                                      }
                                      100% {
-                                     transform: translateX(calc(-250px * 6));
+                                     transform: translateY(calc(-250px * 6));
                                      }
                                 }
                                      
                                 @keyframes scroll {
                                      0% {
-                                     transform: translateX(0);
+                                     transform: translateY(0);
                                      }
                                      100% {
-                                     transform: translateX(calc(-250px * 6));
+                                     transform: translateY(calc(-250px * 6));
                                      }
                                 }
                             </style>
